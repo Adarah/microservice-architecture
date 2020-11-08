@@ -1,3 +1,0 @@
-As a user, create a shortened link to my URLs so that my visitors can see a more friendly link rather than a huge string of characters. If possible, also want to influence what the the URL will look like (for example, if the shortener website is called foo.com, I want a specific url such as foo.com/air-conditioners).
-As a user, I want to see visualizations about the visitors who clicked my shortened URL, so that I can better understand who my users are. Analytics include the number of visitors, where the visitors come from, their Operating System, and if they are on mobile or desktop.
-As a developer, I want to be able to create shortened URLs programatically by calling an API endpoint. 

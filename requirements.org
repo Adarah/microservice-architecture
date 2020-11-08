@@ -1,0 +1,44 @@
+* User stories
++------+------------------------------------------------+---------------------------------------------------+----------------------------------------------------------------+
+|  As  | I want to                                      | So that                                           | TODO                                                           |
+|  a   |                                                |                                                   |                                                                |
++------+------------------------------------------------+---------------------------------------------------+----------------------------------------------------------------+
+| User | Create a shortened link to my URLs so that my  | I can control the size and path of my URLs        | Add URL Shortening service                                     |
+|      |visitors can see a more friendly link rather    |                                                   |                                                                |
+|      |than a huge string of characters. If possible,  |                                                   |                                                                |
+|      |also want to influence what the the URL will    |                                                   |                                                                |
+|      |look like (for example, if the shortener website|                                                   |                                                                |
+|      |is called foo.com, I want a specific url such as|                                                   |                                                                |
+|      |foo.com/air-conditioners).                      |                                                   |                                                                |
++------+------------------------------------------------+---------------------------------------------------+----------------------------------------------------------------+
+| User | See visualizations about the visitors who      | I can have better insights on who my visitors are | Add tracking mechanism to URL shortener, add anayltics service |
+|      |clicked my shortened URL, so that I can better  |                                                   |                                                                |
+|      |understand who my users are. Analytics include  |                                                   |                                                                |
+|      |the number of visitors, where the visitors come |                                                   |                                                                |
+|      |from, their Operating System, and if they are on|                                                   |                                                                |
+|      |mobile or desktop.                              |                                                   |                                                                |
++------+------------------------------------------------+---------------------------------------------------+----------------------------------------------------------------+
+| User | Create shortened URLs programatically via an   | I can integrate this tool in my own systems       | Add API endpoints and documentation                            |
+|      |API endpoint                                    |                                                   |                                                                |
++------+------------------------------------------------+---------------------------------------------------+----------------------------------------------------------------+
+| User | Preview where the shortened URL will take me be|I can be sure that the URL will not take me to any | Add preview testing for Twitter, Whatsapp, and Discord         |
+|      |when using something like Whatsapp and Discord  |malicious website                                  |                                                                |
++------+------------------------------------------------+---------------------------------------------------+----------------------------------------------------------------+
+
+* Requirements
+Definition: A redirect is a shortened URL that redirects a user to another website.
+** Functional
+- Create shortened URLs
+- Control part of the path of the generated URLs
+- Visitors who click the link will have their information tracked, including:
+  - geolocation
+  - number of visitors
+  - operating system
+- Create and retrieve a redirect's information from API endpoints
+- Provide visualizations and aggregate information about the visitors who clicked the redirect
+- Unregistered users can create redirects, but they won't have access to any analytics
+** Non-functional
+- A redirect is immutable
+- Users only have access to analytics on redirects they own
+- System must be scalable
+- System must be able to maintain
