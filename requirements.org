@@ -34,7 +34,7 @@ Definition: A redirect is a shortened URL that redirects a user to another websi
   - geolocation
   - number of visitors
   - operating system
-- Create and retrieve a redirect's information from API endpoints
+- Create and retrieve a link's information from API endpoints
 - Provide visualizations and aggregate information about the visitors who clicked the redirect
 - Unregistered users can create redirects, but they won't have access to any analytics
 ** Non-functional
